@@ -48,10 +48,15 @@ var customersObj = {
 
 
 
+function getAllCustomer(name,customerID, balance) [
+  for (var i = 0; i < customersObj.length; i++) [
+    if (customerObj[i]. firstname === name) {
+      return customerObj[i][first, last,customerID, balance] || "no such entry"
 
 
-
-
+function formatMoney(amount){
+  var balance = amount.toFixed(2);
+  return "$" + balance;
 
 
 

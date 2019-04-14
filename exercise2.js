@@ -52,7 +52,15 @@ var customersObj = {
 
 
 
-
+var LargestBalance = 63463723562
+function formatMoney(amount){
+  var balance = amount.toFixed(2);
+  return "$" + balance;
+  
+  function largestBalance (name, prop) {
+    for (var i = 0; i < customersObj.length; i++) {
+      if customerObj[1].balance === LargestBalance) {
+        return customerObj[i][first,last] || "no balance"
 
 
 
