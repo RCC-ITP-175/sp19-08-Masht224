@@ -3,56 +3,59 @@ console.log("exercise3.js start");
 // Write a function named resetCustomers that accepts
 // the customersObj as an argument and performs the
 // following actions.
-// 1) Iterates through the object and sorts the customers
-//    alphabetically by last name and assigns each customer 
-//    a new customerID starting at 100 and incrementing 
-//    by 1 for each customer
-// 2) Divides each customer's balance by half. Round down any customers
+// 1) Divides each persons's balance by half. Round down any
 //    whose new balance gives them a half penny.
-// 3) Outputs each customer's new information in this format
-//    First Last is now #customerID with a balance of $1234.56
+// 2) Generates a new random integer between 1-1000 for each person's customerID.
+// 3) Iterates through all people in the customersObj object and outputs each person's 
+//    new information in this format
+//    First Last #customerID now has a balance of $1234.56
 
 var customersObj = {
-    23567: {
-        'name': {
-            'first': 'Ichigo',
-            'last': 'Kurosaki'
-        }, 
-        'customerID': 23567,
-        'balance': 153677345
-    },
-    1234: {
-        'name': {
-            'first': 'Gin',
-            'last': 'Ichimaru'
-        }, 
-        'customerID': 1234,
-        'balance': 1235412356
-    },
-    1531: {
-        'name': {
-            'first': 'Shunsui',
-            'last': 'Kyoraku'
-        }, 
-        'customerID': 1531,
-        'balance': 65432467
-    },
-    543: {
-        'name': {
-            'first': 'Kisuke',
-            'last': 'Urahara'
-        }, 
-        'customerID': 543,
-        'balance': 63463723562
-    },
-    667: {
-        'name': {
-            'first': 'Ulquiorra',
-            'last': 'Cifer' 
-        }, 
-        'customerID': 667,
-        'balance': 4562647745
-    }
+    'lastModified': '04-21-19',
+    'oganization': 'Gotei 13',
+    'location': 'Seireitei',
+    'people': [
+        {
+            'name': {
+                'first': 'Ichigo',
+                'last': 'Kurosaki'
+            }, 
+            'customerID': 23567,
+            'balance': 153677345
+        },
+        {
+            'name': {
+                'first': 'Gin',
+                'last': 'Ichimaru'
+            }, 
+            'customerID': 1234,
+            'balance': 1235412356
+        },
+        {
+            'name': {
+                'first': 'Shunsui',
+                'last': 'Kyoraku'
+            }, 
+            'customerID': 1531,
+            'balance': 65432467
+        },
+        {
+            'name': {
+                'first': 'Kisuke',
+                'last': 'Urahara'
+            }, 
+            'customerID': 543,
+            'balance': 63463723562
+        },
+        {
+            'name': {
+                'first': 'Ulquiorra',
+                'last': 'Cifer' 
+            }, 
+            'customerID': 667,
+            'balance': 4562647745
+        }
+    ]
 };
 
 
