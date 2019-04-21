@@ -59,7 +59,19 @@ function formatMoney(amount){
   return "$" + balance;
 
 
+///////////////////////
+// INSTRUCTOR FEEDBACK
+///////////////////////
+// -2pts You have some typos at the end of lines 51 and 52 where you're using
+// [ instead of { and you are missing the closing } as well.
+        
+// Refer to https://www.youtube.com/watch?v=a3KHBqH7njs and try using a for in loop
+// instead of the regular for loop you have on line 52. You may be able to reduce the 
+// amount of code you're writing in lines 52-54 that way.
 
+// Creating the separate formatMoney function isn't required, but is a smart way to think
+// as you could use that function independantly of getAllCustomers if you had other
+// need for it. Don't forget to call it though.
 
 
 
